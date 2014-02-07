@@ -180,8 +180,8 @@ This module provides two functions.
 =head2 apply_metaroles( ... )
 
 This function will apply roles to one or more metaclasses for the specified
-class. It will return a new metaclass object for the class or role passed in
-the "for" parameter.
+class or role. It will return a new metaclass object for the class or role
+passed in the "for" parameter.
 
 It accepts the following parameters:
 
@@ -189,8 +189,8 @@ It accepts the following parameters:
 
 =item * for => $name
 
-This specifies the class or for which to alter the meta classes. This can be a
-package name, or an appropriate meta-object (a L<Moose::Meta::Class> or
+This specifies the class or role for which to alter the meta classes. This can
+be a package name, or an appropriate meta-object (a L<Moose::Meta::Class> or
 L<Moose::Meta::Role>).
 
 =item * class_metaroles => \%roles
